@@ -1,0 +1,79 @@
+body{
+  font-family:"Microsoft YaHei UI";
+  font-size:12px;
+  background:"images/cover.jpg";
+}
+
+#logo{
+  width:450px;
+  height:130px;
+  margin-top:150px;
+  margin-left:150px;
+  float:left;
+}
+
+#Login{
+  width:350px;
+  height:300px;
+  margin-top:200px;
+  margin-right:200px;
+  background-color:#D2D2D2;
+  opacity:0.88;
+  float:right;
+  text-align:center;
+  position:relative;
+}
+
+label{
+  font-size:18px;
+  font-weight:bold;
+  color:gray;
+}
+
+#stuNum, #ID{
+  height:26px;
+  width:170px;
+  border-radius:6px;
+}
+
+#codeimg{
+  height: 30px;
+  width: 100px;
+  border: 0;
+  margin-right: 0px;
+}
+
+#code{
+  height: 26px;
+  width: 80px;
+  border-radius: 6px;
+}
+
+#result{
+  color:red;
+}
+
+#stulogin{
+  height:40px;
+  width:105px;
+  background-color:#2795dc;
+  color:white;
+  font-size:18px;
+  font-family:'Microsoft Yahei';
+  font-weight:bold;
+  border-radius:8px;
+  right:123px;
+  bottom:40px;
+}
+
+#a1{
+	position:absolute;
+	right:50px;
+	bottom:15px;
+}
+
+#a2{
+	position:absolute;
+	bottom:15px;
+	left:50px;
+}

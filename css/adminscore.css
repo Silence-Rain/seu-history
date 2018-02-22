@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:"Microsoft YaHei UI";
+	font-size:20px;
+	background:#F0F0F0;
+}
+td,th{
+	width:120px;
+	height:35px;
+}
+.button{
+	width:120px;
+	height:30px;
+	font-family:"Microsoft YaHei UI";
+	font-size:16px;
+	margin:30px auto;
+}
+#logo{
+	width:450px;
+	height:130px;
+	margin-top:70px;
+	margin-bottom:100px;
+  	margin-left:150px;
+}
+#box{
+	width:700px;
+	background:#fff;
+	padding-top:20px;
+	text-align:center;
+	margin:20px auto;
+}
+#logout{
+	width:75px;
+}
+#result{
+	margin:30px auto;
+	margin-top: 0px;
+	font-size:18px;
+	text-align:center;
+	border-collapse: collapse;
+	border:2px solid #cad9ea;
+	color:#666;
+}

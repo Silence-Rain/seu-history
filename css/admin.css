@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:url(../images/adminCover.jpg);
+	font-family:"Microsoft YaHei UI";
+	font-size:18px;
+	font-weight:bold;
+}
+#logo{
+	width:450px;
+	height:130px;
+	margin-top:70px;
+	margin-bottom:100px;
+  	margin-left:150px;
+}
+.login{
+	background:url(../images/adminBG.png);
+	background-size:100%;
+	width:400px;
+	height:280px;
+	margin-left:auto;
+	margin-right:auto;
+	opacity:0.88;
+	position:relative;
+}
+.inner{
+	padding-top:10px;
+	padding-left:30px;
+	border: 1px #fff double;
+	opacity:0.88;
+	position:absolute;
+	top:6px;
+	right:6px;
+	bottom:6px;
+	left:6px;
+}
+.error{
+	font-size:13px;
+	font-weight:normal;
+	color:red;
+}
+#num,#password,#stuNum,#name,#ID{
+	height:26px;
+	width:170px;
+	border-radius:6px;
+}
+#adminlogin{
+	height:40px;
+	width:105px;
+	background-color:#2795dc;
+	color:white;
+	font-size:18px;
+	font-family:'Microsoft Yahei';
+	font-weight:bold;
+	border-radius:8px;
+	position:absolute;
+	right:20px;
+	bottom:15px;
+}
+#submit{
+	height:35px;
+	width:105px;
+	background-color:#2795dc;
+	color:white;
+	font-size:16px;
+	font-family:'Microsoft Yahei';
+	font-weight:bold;
+	border-radius:8px;
+	position:absolute;
+	right:20px;
+	bottom:8px;
+}

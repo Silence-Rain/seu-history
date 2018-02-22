@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>管理员登录界面</title>
+    <link href="css/admin.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  	<div id="logo">
+  		<img src="images/adminLogo.png" height="130">
+    </div>
+  	<div class="login">
+    <div class="inner">
+    	<div style="margin-top:20px;margin-bottom:20px;">
+    		<img src="images/adminTitle.png">
+        </div>
+    	<label for="ID">账 号 :</label>
+      	<input type="text" name="num" id="num"/><br/><br/>
+        <label for="password">密 码 :</label>
+    	<input type="password" name="password" id="password"/><br/>
+      <p id="result" class="error"></p>
+      <br/>
+    <input type="button" value="登 录" id="adminlogin"/>
+    </div>
+    </div>
+    <script type="text/javascript" src="js/ajax.js"></script>
+    <script type="text/javascript" src="js/cookie.js"></script>
+    <script type="text/javascript" src="js/admin.js"></script>
+  </body>
+</html>

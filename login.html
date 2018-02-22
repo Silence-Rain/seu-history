@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>东南大学校史知识竞赛-登录</title>
+    <link href="css/login.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+  </head>
+  <body background="images/cover.jpg">
+ 	<div id="logo">
+		<img src="images/logo.png" height="130">
+	</div>
+  <script type="text/javascript" src="js/ajax.js"></script>
+  <script type="text/javascript" src="js/code.js"></script>
+
+    <form id="loginform" method="post">
+    <div id = "Login">
+      <br/><br/><br/>
+      <label for = "stuNum">学号 :</label>
+      <input type="text" name="stuNum" id="stuNum"
+      	onmouseover="this.style.backgroundColor='#c7f7ff'"
+	      onmouseout="this.style.backgroundColor='white'" />
+      <br/><br/>
+      <label for = "ID">密码 :</label>
+      <input type="password" name="ID" id="ID"
+     	  onmouseover="this.style.backgroundColor='#c7f7ff'"
+	      onmouseout="this.style.backgroundColor='white'" />
+      <br/><br/>
+      <label for = "code">验证码 :</label>
+      <input type="text" name="code" id="code"
+     	  onmouseover="this.style.backgroundColor='#c7f7ff'"
+	      onmouseout="this.style.backgroundColor='white'" />
+      &nbsp;
+      <img src='createcode.php?r=1' width="113" height="42" id="codeimg">
+      <br/>
+      <p id="result"></p>
+      <input type="button" value="登 录" id="stulogin"/>
+      <br/><br/>
+      <a href="admin.html" title="管理员登录" >是管理员？请点这里</a>
+      &nbsp;&nbsp;
+      <a href="reg.html" title="注册" >无法登录？请点这里</a>
+    </div>
+      <br/>
+    </form>
+    <script type="text/javascript" src="js/cookie.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+  </body>
+</html>
